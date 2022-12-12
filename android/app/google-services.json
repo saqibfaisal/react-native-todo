@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015613520426",
+    "project_id": "react-native-firebase-68cc5",
+    "storage_bucket": "react-native-firebase-68cc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015613520426:android:b936b76adea146ef11a153",
+        "android_client_info": {
+          "package_name": "com.practices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015613520426-p7iqntu671lc9ll1p23obibboo63h2jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8wUCuNMe6oHL3hgsCBfyW93X2ACf_0UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015613520426-p7iqntu671lc9ll1p23obibboo63h2jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
