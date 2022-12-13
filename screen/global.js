@@ -54,28 +54,74 @@ export const GlobalStyle = StyleSheet.create({
     marginVertical: 15,
     alignItems: 'center',
   },
-  Todo: {
+  container: {
+    paddingHorizontal: 2,
+    paddingVertical: 1,
+    height: '100%',
+    width: '100%'
+  },
+  heading: {
+    paddingVertical: 8,
+    color: 'white',
+    fontSize: 26,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: 3, height: 5 },
+    textShadowRadius: 10
+  },
+  inputField: {
+    width: '85%',
+    borderWidth:2,
+    borderRadius: 10,
+    padding: 0,
+    color: 'white',
+    borderColor: 'white',
+    fontSize: 16,
+    paddingHorizontal: 15
+  },
+  addBtn: {
+    width: '10%',
+    paddingVertical: 8,
+    marginHorizontal: 12,
+    backgroundColor: 'white',
+    borderRadius: 8,
+    textAlign: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  deleteAllBtn: {
+    marginVertical: 10,
+    paddingVertical: 8,
     width: '100%',
-    // height: '100%',
-    // shadowColor: '#000',
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 2,
-    // },
-    // shadowOpacity: 0.22,
-    // shadowRadius: 2.22,
+  },
+  todoListView: {
+    flexDirection: 'row',
+    borderWidth: 5,
+    borderColor: 'white',
+    borderRadius: 20,
+    backgroundColor: 'white',
+    marginBottom: 15,
+    padding: 5,
+    marginHorizontal: 10,
+  },
+  todoText: {
+    paddingTop:5,
+    width: '80%',
+    color: 'black'
+  },
+  editAndDelete: {
+    width: 25,
+    height: 25
+  },
+  countOrNoCount: {
+    textAlign: 'center',
+    color: 'white',
+    fontWeight: 'bold',
+    marginVertical: 15,
+    fontSize: 20,
+    textDecoration: 'underline'
+  }
 
-    // elevation: 3,
-    // margin: 18,
-    // paddingVertical: 10,
-    // padding: "10px  0px",
-    // borderWidth: 1,
-    // borderColor: 'white',
-  },
-  TodoText: {
-    // padding: 30,
-    fontSize: 18,
-    fontWeight: 400,
-    color: 'black',
-  },
 });
+
